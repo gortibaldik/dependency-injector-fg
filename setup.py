@@ -36,15 +36,15 @@ if os.environ.get("DEPENDENCY_INJECTOR_DEBUG_MODE") == "1":
     defined_macros["CYTHON_CLINE_IN_TRACEBACK"] = 1
 
 
-setup(name="dependency-injector",
+setup(name="dependency-injector-fg",
       version=version,
-      description="Dependency injection framework for Python",
+      description="Dependency injection framework for Python - FORK by gortibaldik",
       long_description=description,
       author="Roman Mogylatov",
       author_email="rmogilatov@gmail.com",
-      maintainer="Roman Mogylatov",
-      maintainer_email="rmogilatov@gmail.com",
-      url="https://github.com/ets-labs/python-dependency-injector",
+      maintainer="František Trebuňa",
+      maintainer_email="ferotre@gmail.com",
+      url="https://github.com/gortibaldik/python-dependency-injector",
       download_url="https://pypi.python.org/pypi/dependency_injector",
       packages=[
           "dependency_injector",
