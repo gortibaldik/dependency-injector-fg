@@ -78,6 +78,9 @@ setup(name="dependency-injector",
           "pydantic": [
               "pydantic",
           ],
+          'pydantic-settings': [
+              'pydantic-settings',
+          ],
           "flask": [
               "flask",
           ],
