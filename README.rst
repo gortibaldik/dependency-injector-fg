@@ -43,6 +43,14 @@
    :target: https://coveralls.io/github/ets-labs/python-dependency-injector?branch=master
    :alt: Coverage Status
 
+
+This is a fork of ``Dependency Injector`` library
+=================================================
+
+Everything below is written and belongs to Roman Mogylatov who was maintaining the library until 2022. This fork fixes some
+issues that we found during the usage of the library.
+
+
 What is ``Dependency Injector``?
 ================================
 
